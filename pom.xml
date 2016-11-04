@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.keyholesoftware</groupId>
@@ -10,6 +15,25 @@
 
 	<description>TroubleMaker Client Starter</description>
 	<packaging>jar</packaging>
+
+	<url>http://keyholesoftware.com</url>
+	<organization>
+		<url>http://keyholesoftware.com</url>
+		<name>Keyhole Software</name>
+	</organization>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/in-the-keyhole/khs-sherpa</url>
+		<connection>scm:git:https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-starter.git</connection>
+		<developerConnection>scm:git:https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-maker.git</developerConnection>
+	</scm>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -77,6 +101,21 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+			<phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+			
+			
 		</plugins>
 	</build>
 </project>
