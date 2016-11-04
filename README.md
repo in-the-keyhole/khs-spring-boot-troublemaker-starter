@@ -53,7 +53,7 @@ Defining Custom Actions Code Blocks
 -----------------------------------
 If you want to apply your own trouble actions and override the supplied defaults, you can create a class that extends from this supplied abstract class, as shown below. 
 
-  package com.mycode;
+	package com.mycode;
   
 	public class MyKillCodeBlock extends BaseCodeBlock {	
 		public KillBlock(long timeout) {
