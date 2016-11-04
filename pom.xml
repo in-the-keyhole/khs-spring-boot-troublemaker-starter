@@ -11,7 +11,7 @@
 
 	<groupId>com.keyholesoftware</groupId>
 	<artifactId>khs-spring-boot-troublemaker-starter</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
 	<description>TroubleMaker Client Starter</description>
 	<packaging>jar</packaging>
