@@ -15,26 +15,26 @@ Add this dependency to your pom.xml:
 
 Annotate your Spring Boot main class:
 
-  @SpringBootApplication
-  @EnableTroubleMaker
-  public class MySpringBootApp {
+	@SpringBootApplication
+	@EnableTroubleMaker
+	public class MySpringBootApp {
 
-    public static void main(String[] args) {
-      SpringApplication.run(MySpringBootApp.class, args);
-    }
-  }
+		public static void main(String[] args) {
+			SpringApplication.run(MySpringBootApp.class, args);
+		}
+	}
 
 Configure an access token:
 
-using properties
+using properties:
 
-  troublemaker.client.token=<token value>
+	troublemaker.client.token=`<token value>`
 
-or yaml
+or yaml:
 
-  troublemaker:
-    client:
-      token: <token value>
+	troublemaker:
+		client:
+			token: `<token value>`
 
 Actions
 -------	
@@ -71,13 +71,13 @@ Then you will need to register the custom block. The example below shows how a c
  
 using properties:
 
-  troublemaker.client.kill=com.mycode.MyKillCodeBlock
+	troublemaker.client.kill=com.mycode.MyKillCodeBlock
   
 or yaml:
 
-  troublemaker:
-    client:
-      kill: com.mycode.MyKillCodeBlock
+	troublemaker:
+		client:
+			kill: com.mycode.MyKillCodeBlock
   
 The complete list of operation names that can be overridden are:
 * kill
