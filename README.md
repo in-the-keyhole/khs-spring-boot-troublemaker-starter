@@ -28,13 +28,13 @@ Configure an access token:
 
 using properties:
 
-	troublemaker.client.token=`<token value>`
+	troublemaker.client.token=abc123
 
 or yaml:
 
 	troublemaker:
 		client:
-			token: `<token value>`
+			token: abc123
 
 Actions
 -------	
@@ -56,9 +56,10 @@ If you want to apply your own trouble actions and override the supplied defaults
 	package com.mycode;
   
 	public class MyKillCodeBlock extends BaseCodeBlock {	
-		public KillBlock(long timeout) {
-  		super(timeout);
-	  }
+	
+		public KillBlock() {
+	  		super();
+		}
     
 		@Override
 		public void eval() {
