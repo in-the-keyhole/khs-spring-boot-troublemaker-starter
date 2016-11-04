@@ -31,7 +31,7 @@
 	<scm>
 		<url>https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-starter</url>
 		<connection>scm:git:https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-starter.git</connection>
-		<developerConnection>scm:git:https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-maker.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-starter.git</developerConnection>
 	</scm>
 
 
