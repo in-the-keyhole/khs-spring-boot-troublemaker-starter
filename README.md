@@ -1,7 +1,7 @@
 # khs-spring-boot-troublemaker-starter
-A Spring Boot starter for autoconfiguration of the TroubleMaker Client.
+A Spring Boot starter for auto-configuration of the TroubleMaker Client.
 
-This autoconfiguration can be used to configure clients of the [Trouble Maker](https://github.com/in-the-keyhole/khs-trouble-maker) framework used to randomly produce server trouble issues.
+This auto-configuration can be used to configure clients of the [Trouble Maker](https://github.com/in-the-keyhole/khs-trouble-maker) framework used to randomly produce server trouble issues.
 
 Installation
 ------------
