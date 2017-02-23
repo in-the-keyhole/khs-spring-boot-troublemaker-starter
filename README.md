@@ -3,6 +3,14 @@ A Spring Boot starter for auto-configuration of the TroubleMaker Client.
 
 This auto-configuration can be used to configure clients of the [Trouble Maker](https://github.com/in-the-keyhole/khs-trouble-maker) framework used to randomly produce server trouble issues.
 
+
+##Quick Links
+[Trouble Maker Client](https://github.com/in-the-keyhole/khs-trouble-maker-client/)
+
+[Trouble Maker Spring Boot Starter](https://github.com/in-the-keyhole/khs-spring-boot-troublemaker-starter)
+
+[Trouble Maker Website](https://keyholelabs.com/trouble-maker/)
+
 Installation
 ------------
 Add this dependency to your pom.xml:
